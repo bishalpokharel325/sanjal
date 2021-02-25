@@ -1,0 +1,103 @@
+.profile__body {
+  background-color: #edeef0;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.profile__body .profile__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.profile__body .profile__middle {
+  display: flex;
+  flex-direction: column;
+}
+.profile__body .profile__pic {
+  width: 280px;
+  cursor: pointer;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+.profile__pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+.profile__left .information {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.information h4 {
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 1px solid #edeef0;
+}
+.information h5 {
+  font-weight: 600;
+  font-size: 13px;
+}
+.information p {
+  font-size: 13px;
+  margin: 0;
+}
+.information__option {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.profile__friends {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px 0;
+  width: 280px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+.friends__inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.profile__friends h4 {
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 1px solid #edeef0;
+  padding-left: 10px;
+}
+.profile__photos h4 {
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 1px solid #edeef0;
+  padding-left: 10px;
+}
+.profile .feed__right {
+  display: flex;
+  flex-direction: column;
+}
+.profile__photos {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px 0;
+  width: 280px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+.photos__inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 950px) {
+  .profile__body {
+    display: flex;
+    flex-direction: column;
+  }
+}

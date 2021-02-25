@@ -1,0 +1,12 @@
+.owlcarousel {
+  display: flex;
+  flex-direction: row;
+}
+.storyreel {
+  display: flex;
+}
+@media screen and (max-width: 950px) {
+  .storyreel {
+    display: none;
+  }
+}

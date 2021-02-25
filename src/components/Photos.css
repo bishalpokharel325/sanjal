@@ -1,0 +1,8 @@
+.photos {
+  margin: 10px;
+  cursor: pointer;
+}
+.photos img {
+  width: 120px;
+  height: 200px;
+}

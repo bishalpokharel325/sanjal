@@ -1,0 +1,15 @@
+.friends {
+  margin: 10px;
+  cursor: pointer;
+}
+.friends span {
+  display: block;
+}
+.friends img {
+  width: 60px;
+  height: 100px;
+}
+.friends span {
+  font-size: 9px !important;
+  color: darkblue;
+}

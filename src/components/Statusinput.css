@@ -1,0 +1,50 @@
+.statusinput {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px 0px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  margin: 10px 0px;
+}
+.si__top {
+  display: flex;
+  border-bottom: 1px solid #edeef0;
+  padding: 15px;
+  align-items: top;
+}
+.si__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px;
+}
+.statusinput .bottom {
+  display: flex;
+}
+.si__top input {
+  outline: none;
+  background-color: #edeef0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 10px;
+  width: 180% !important;
+}
+.si__top button {
+  display: none;
+}
+.bottom:hover {
+  background-color: #edeef0;
+  border-radius: 10px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.bottom .MuiSvgIcon-root {
+  margin: 0px 5px;
+}

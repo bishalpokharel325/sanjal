@@ -1,0 +1,16 @@
+.sidebaritem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.avatar {
+  margin: 5px 10px;
+}
+.sidebaritem:hover {
+  background-color: white;
+}
+.sidebaritem .MuiSvgIcon-root {
+  margin: 5px 10px;
+  color: blue;
+}

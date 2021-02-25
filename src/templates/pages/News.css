@@ -1,0 +1,12 @@
+.app__body {
+  display: flex;
+  justify-content: space-around;
+  background-color: #edeef0;
+  padding: 20px 0px;
+}
+@media screen and (max-width: 950px) {
+  .news__body {
+    display: flex;
+    flex-direction: column;
+  }
+}

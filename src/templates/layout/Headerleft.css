@@ -1,0 +1,24 @@
+.header__left {
+  display: flex;
+}
+.header__left img {
+  height: 40px;
+  border-radius: 25px;
+}
+.header__search {
+  display: flex;
+  background-color: #edeef0;
+  border-radius: 25px;
+  padding: 5px;
+  align-items: center;
+  margin-left: 20px;
+  margin: 5px 20px;
+}
+.header__search input {
+  background-color: #edeef0;
+  border: none;
+  outline: none;
+}
+.MuiSvgIcon-root {
+  color: grey;
+}

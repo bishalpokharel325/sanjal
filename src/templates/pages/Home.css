@@ -1,0 +1,22 @@
+.home__body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #edeef0;
+  padding-top: 25px;
+}
+.home__slider {
+  width: 60%;
+}
+.home__right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+@media screen and (max-width: 950px) {
+  .app__body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}

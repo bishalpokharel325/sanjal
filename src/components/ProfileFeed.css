@@ -1,0 +1,19 @@
+.profile__feed {
+  display: flex;
+  flex-direction: column;
+}
+.profile__cover {
+  width: 600px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+.profile__cover img {
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.profile__cover img:hover {
+  transform: scale(1.1);
+  transition: ease-in 500ms;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
