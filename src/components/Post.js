@@ -36,7 +36,7 @@ function Post({profilePic,image,name,time,status}) {
                 <Avatar className="post__avatar" src={profilePic && profilePic}/>
                 <div className="post__info">
                     <h6>{name && name}</h6>
-                    <p>Time...</p>  
+                    <p>{time}</p>  
                 </div>
 
             </div>
@@ -44,7 +44,7 @@ function Post({profilePic,image,name,time,status}) {
             <p>{status}</p>
             </div>
             <div className="post__image">
-            <img src={image}/>
+                {image && <img src={image}/>}
             </div>
             <div className="post__likes">
                 <button onClick={btnlikeChanger}>

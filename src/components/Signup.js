@@ -6,6 +6,7 @@ import Dateofbirth from './Dateofbirth'
 import { Button, TextField } from '@material-ui/core'
 
 function Signup() {
+    
     return (
         <div className="signup">
             <h2>First Time?</h2>
@@ -25,9 +26,12 @@ function Signup() {
             </div>
             
             <div className="button__forgot">
+                <Link to="/signup" style={{textDecoration:'none',color:'inherit'}}>
                 <Button variant="contained" color="primary">
                     Continue Registration 
                 </Button>
+                </Link>
+                
             </div>
             </form>
         </div>

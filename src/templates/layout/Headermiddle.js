@@ -43,5 +43,4 @@ function Headermiddle() {
             </div>
     )
 }
-
 export default Headermiddle
